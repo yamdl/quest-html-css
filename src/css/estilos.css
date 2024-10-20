@@ -1,0 +1,81 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+    color: #ffffff;
+    background: url(../images/bg-desktop.svg) center center no-repeat hsl(257, 40%, 49%);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px 20px 20px;
+}
+
+.header{
+    padding: 50px 50px 50px 165px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main img{
+    width: 50%;
+    height: 100%;
+}
+
+.main .text{
+    width: 33%;
+}
+
+.main .text h2{
+    margin: 50px 40px 25px;
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+
+.main .text p{
+    margin: 15px 40px;
+    font-size: 1.8rem;
+    line-height: 25px;
+}
+
+.main .text a{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: hsl(257, 40%, 49%);
+    font-size: 2rem;
+    display: inline-block;
+    margin: 5px 40px;
+    padding: 18px 70px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px #2b2929 ;
+}
+
+.main .text a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footer ul a li i{
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 1.8rem;
+}
+
+.footer ul a li i:hover{
+    border-color: hsl(321, 100%, 65%);
+    color: hsl(321, 100%, 65%);
+}
